@@ -17,12 +17,12 @@ dpkg-reconfigure -f noninteractive tzdata
 
 # ===== INSTALL UDP-CUSTOM =====
 echo "Downloading udp-custom..."
-wget -q "https://github.com/Yahdiad1/udp/raw/main/udp-custom-linux-amd64" -O /root/udp/udp-custom
+wget -q "https://github.com/Yahdiad1/Udp/raw/main/udp-custom-linux-amd64" -O /root/udp/udp-custom
 chmod +x /root/udp/udp-custom
 
 # ===== DOWNLOAD DEFAULT CONFIG =====
 echo "Downloading default config..."
-wget -q "https://raw.githubusercontent.com/Yahdiad1/udp/main/config.json" -O /root/udp/config.json
+wget -q "https://raw.githubusercontent.com/Yahdiad1/Udp/main/config.json" -O /root/udp/config.json
 chmod 644 /root/udp/config.json
 
 # ===== BUAT SYSTEMD SERVICE =====
